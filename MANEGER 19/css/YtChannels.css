@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+}
+
+header img{
+    height: 40px;
+    margin-right: 20px;
+}
+
+header{
+    display: flex;
+    padding: 5px;
+    border: 6px solid rgb(255, 255, 255);
+}
+
+header a{
+    margin-right: 40px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    background-color: black;
+}
+.card, .card2, .card3, .card4{
+    margin-top: 50px;
+    width: 300px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.card button, .card2 button, .card3 button, .card4 button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+
+.card{
+    background: linear-gradient(
+        to right,
+        rgb(4, 200, 92),
+        rgb(0, 255, 55)
+    );
+}
+
+.card button:hover{
+    background-color: greenyellow;
+}
+
+.card2{
+    background: linear-gradient(
+        to right,
+        rgb(0, 85, 255),
+        rgb(0, 200, 255)
+    );
+}
+
+.card2 button:hover{
+    background-color: rgb(210, 210, 231);
+}
+
+.card3{
+    background: linear-gradient(
+        to right,
+        orange,
+        yellow
+    );
+}
+
+.card3 button:hover{
+    background-color: rgb(255, 115, 0);
+}
+
+.card4{
+    background: linear-gradient(
+        to right,
+        rgb(121, 118, 118),
+        rgb(168, 162, 162)
+    );
+}
+
+.card4 button:hover{
+    background-color: white;
+}
+
+
+.card:hover, .card2:hover, .card3:hover, .card4:hover  {
+    transition: border-radius 0.5s ease-in-out;
+    border-radius: 25px; 
+  }
+  
